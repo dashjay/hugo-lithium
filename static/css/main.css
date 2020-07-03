@@ -25,8 +25,13 @@ a {
   outline: none;
 }
 
-code {
-  background-color: rgba(0, 0, 0, 0.02);
+p code {
+  border-radius: 3%;
+  background-color: rgba(194, 194, 178, 0.564);
+}
+
+pre{
+  border-radius: 2%;
 }
 
 .wrapper {
