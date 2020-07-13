@@ -25,14 +25,19 @@ a {
   outline: none;
 }
 
-p code {
-  border-radius: 3%;
-  background-color: rgba(194, 194, 178, 0.564);
-}
-
 pre{
   border-radius: 2%;
+  width: 120%;
 }
+
+p code, ul code {
+  border-radius: 3%;
+  background-color: rgba(182, 182, 182, 0.564);
+  color: rgb(45, 43, 43);
+  opacity: 85%;
+}
+
+
 
 .wrapper {
   overflow: hidden;
@@ -49,9 +54,23 @@ pre{
 .nav {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 25px;
   text-align: right;
 }
+
+aside {
+  margin: 0 auto;
+  padding: 0 15px;
+  color: #a7b1ac
+}
+aside a{
+  text-decoration: none;
+  text-decoration-line: overline;
+  text-decoration-color: #222;
+   color: #333; 
+}
+
+
 
 .nav-logo {
   float: left;
