@@ -134,6 +134,18 @@ aside a{
   color: #ccc;
 }
 
+.article-tag{
+  margin-left: 3px;
+  padding: 2px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #9EABB3;
+  border: #E3E9ED 1px solid;
+  transition: color 0.3s ease;
+}
+
 .article-duration {
   margin-top: 12px;
   float: right;
