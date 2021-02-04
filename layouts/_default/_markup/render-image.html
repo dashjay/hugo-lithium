@@ -1,0 +1,11 @@
+<p class="md__image" style="display: flex;flex-direction: column;">
+
+    <!-- flex 会让图片和外面的宽度保持一致 700px  -->
+    <!-- 因此如果需要图片尺寸不为700px的时，就在markdown中这样设置 -->
+    <!-- ![图片名称](图片链接 "图片大小") -->
+    <!-- 如 ![Name]](/post/aaa/1.jpg "1000px") 就是合法的-->
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} width="{{ . }}" {{ end }}>
+   
+    <span style="margin: 0 auto; color: grey; padding-top: 4px"> {{ .Text }} </span>
+   
+</p>
