@@ -21,7 +21,6 @@ For the full documentation, please see this section in the **blogdown** book: ht
 - Google Analytics
 - Google web fonts (Merriweather and Lato)
 - MathJax
-- highlight.js
 
 ## Changes
 

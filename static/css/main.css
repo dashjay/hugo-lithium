@@ -184,16 +184,6 @@ aside a{
   background: #e5e5e5;
 }
 
-.highlight {
-  border-radius: 3px;
-  position: relative;
-  margin: 40px 0;
-  font-size: 14px;
-}
-
-.highlight pre {
-  padding: 10px;
-}
 
 .archive {
   margin: 0;
@@ -306,11 +296,6 @@ aside a{
   .content {
     font-size: 19px;
     line-height: 1.8;
-  }
-
-  .highlight {
-    font-size: 16px;
-    margin: 40px -20px;
   }
 
   .archive {
